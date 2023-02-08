@@ -1,24 +1,19 @@
 
 import './App.css';
 import HelloWorld from './components/HelloWorld'; 
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
-  function Sum(a, b) {  
-    return a + b;
-  }
-
-const name = 'Lucas';
-
-const URL = 'https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png/150';
+  const nome = "Maria";
 
   return (
     <div className="App">
-      <h1>Olá React!</h1>
-      <p>Olá, {name}</p>
-      <p>Soma: {Sum(1, 2)}</p>
-      <img src={URL} alt="lucas"/>
-      <HelloWorld />
+      <SayMyName name="Lucas" />
+      <SayMyName name="Jean" />
+      <SayMyName name={nome} />
+      <Pessoa nome="João" idade="25" profissao="Programador" foto="https://avatars.githubusercontent.com/u/5624255?v=4/" />
     </div>
   );
 }
