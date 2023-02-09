@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld'; 
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/frase';
 
 function App() {
 
@@ -10,6 +11,9 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Testando css</h1>
+      <Frase />
+      <Frase />
       <SayMyName name="Lucas" />
       <SayMyName name="Jean" />
       <SayMyName name={nome} />
