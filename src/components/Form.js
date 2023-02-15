@@ -20,7 +20,7 @@ function Form() {
             type="text"
             id="name"
             name="name"
-            placeholder="Digite o seu nome"
+            placeholder="Digite seu nome"
             onChange={(e) => setNome(e.target.value)}
           />
         </div>
@@ -30,7 +30,7 @@ function Form() {
             type="password"
             id="password"
             name="password"
-            placeholder="Digite a sua senha"
+            placeholder="Digite sua senha"
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
