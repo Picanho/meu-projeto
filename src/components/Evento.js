@@ -2,11 +2,11 @@ import Button from "./evento/Button";
 
 function Evento() {
   function meuEvento() {
-    console.log(`Ativando primeiro evento`);
+    console.log(`Ativando o primeiro evento`);
   }
 
 function segundoEvento() {
-    alert(`Ativando segundo evento`);
+    alert(`Ativando o segundo evento`);
   }
 
   return (
